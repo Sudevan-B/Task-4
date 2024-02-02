@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logo{
+    float:left;
+    height: 50px;
+    margin-left: 2em;
+    margin-top: 1em;    
+}
+.banner{
+   
+    background-size: cover;
+    height: 966px;
+    object-fit: contain;
+}
+button{
+    margin-left: 32em; 
+    padding: 19px 50px 19px 50px; 
+    color: white; 
+    background-color: #ff4747cf; 
+    font-size:18px;
+    border:#ff4747cf;
+}
+button:hover{
+    background-color: rgba(255, 255, 255, 0.113);
+}

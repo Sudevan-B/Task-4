@@ -1,0 +1,96 @@
+
+body{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.banner{
+    background-image:linear-gradient(180deg,transparent,rgba(11, 10, 10, 0.575)),url('images/friends2.jpeg');
+    background-size: cover;
+    height: 600px;
+    object-fit: contain;
+}
+
+.logo{
+    float:left;
+    height: 50px;
+    margin-left: 2em;
+    margin-top: 1em;    
+}
+.avatar{
+    height: 38px;
+    margin-top: 20px;
+    margin-left: 77em;
+}
+.b-content{
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top:7%;
+    margin-left:5%;
+}
+
+.play{
+  background-color: #16181759; 
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.play:hover{
+    background-color:rgba(169, 187, 178, 0.349);
+}
+.mylist{
+    background-color: #16181759; 
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+}
+.mylist:hover{
+    background-color:rgba(169, 187, 178, 0.349);
+}
+.blink{
+    color:rgb(201, 190, 190);
+    animation: animate 4.5s linear infinite;  
+}
+@keyframes animate{  
+    0%{  
+        opacity: 0;  
+    }  
+    50%{  
+        opacity: 0.6;  
+    }  
+    100%{  
+        opacity: 0;  
+    }  
+    }  
+.row{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.net-row{
+    display:flex;
+    overflow-y:hidden;
+    overflow-x:scroll;
+    padding:40px;
+}
+.net-movies{
+    object-fit: contain;
+    max-height: 300px;
+    transition: transform .2s;
+    padding-left:20px;
+    flex-basis: 100%;
+}
+.net-movies:hover{
+    transform: scale(1.5);
+}
+
+.net-row::-webkit-scrollbar{
+    display:none;
+}
